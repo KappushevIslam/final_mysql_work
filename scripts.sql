@@ -65,6 +65,7 @@ CREATE TABLE product_cathegories (
   name VARCHAR(100) NOT NULL
   );
 
+-- I could make tables for every rype of product, but it would make negative effect of productivity.
 CREATE TABLE products (
   id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(255) NOT NULL COMMENT 'head of the product',
